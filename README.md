@@ -17,4 +17,4 @@ html css js ООП BEM Адаптивная верстка, сборщик Webpa
 * Сайт подключен к серверу
 В page добавлены: Изображения; Текст и ссылки по которым можно кликнуть.
 
-https://liliakhazieva.github.io/mesto/
+https://liliakhazieva.github.io/mesto-react/
