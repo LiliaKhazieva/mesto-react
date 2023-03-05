@@ -11,11 +11,13 @@ function App() {
   const [isOpenPopupAvatarEdit, setIsOpenPopupAvatarEdit] = React.useState(false);
   const [isOpenPopupProfile, setIsOpenPopupProfile] = React.useState(false);
   const [isOpenPopupAdd, setIsOpenPopupAdd] = React.useState(false);
+  const [isOpenImagePopup, setIsOpenImagePopup] = React.useState(false);
 
 // стейт карточки в попапе с изображением и хендлер открытия
   const [selectedCard, setSelectedCard] = React.useState(null);
   function handleCardClick(props) {
     setSelectedCard(props);
+    setIsOpenImagePopup(true)
   }
 
   //хендлер кнопки редактирования аватара
@@ -38,7 +40,7 @@ function App() {
     setIsOpenPopupAvatarEdit(false);
     setIsOpenPopupProfile(false);
     setIsOpenPopupAdd(false);
-    setSelectedCard(null);
+    setIsOpenImagePopup(false);
   }
 
   return (
@@ -103,6 +105,7 @@ function App() {
         buttonName="Создать"
       />
       <ImagePopup
+        isOpen={isOpenImagePopup}
         card={selectedCard}
         onClose={closeAllPopups}
       />
