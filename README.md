@@ -7,10 +7,11 @@
 Многие блоки могут переиспользоватся. 
 
 JS написан в соответствии с методологией ООП
-
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
 <img src="./screenshots/main_page.png" alt="mesto" width="300px">
 <img src="./screenshots/IMAGE POPUP I.jpg" alt="popup" width="300px">
 <img src="./screenshots/EDIT FORM.jpg" alt="form" width="300px">
+</div>
 
 Технологии которые были использованы:
 
