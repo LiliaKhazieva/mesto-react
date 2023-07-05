@@ -8,9 +8,9 @@
 
 JS написан в соответствии с методологией ООП
 
-<img src="./screenshots/main_page.png" alt="mesto">
-<img src="./screenshots/IMAGE POPUP I.jpg" alt="popup">
-<img src="./screenshots/EDIT FORM.jpg" alt="form">
+<img src="./screenshots/main_page.png" alt="mesto" width="300px">
+<img src="./screenshots/IMAGE POPUP I.jpg" alt="popup" width="300px">
+<img src="./screenshots/EDIT FORM.jpg" alt="form" width="300px">
 
 Технологии которые были использованы:
 
